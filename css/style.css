@@ -1,0 +1,94 @@
+body{
+    background-image: url(../fotos/teclado.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.titulo{
+    color: lightskyblue;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px; 
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu__item{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.menu__item a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+.fotos{
+    text-align: center;
+    padding: 15px;
+}
+
+.fotos__item{
+    margin: 15px;
+    width: 270px;
+    height: 350px;
+    border: 2px solid white;
+}
+
+.formulario{
+    background-image: url(../fotos/formulario.jpg);
+    text-align: center;
+    border: solid darkslategray;
+    height: 18px;
+    padding: 150px;
+    margin: 150px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategrey;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0.7rem 1rem;
+}
+
+.article__faq{
+    background-color: gray;
+    text-align: center;
+    padding: 150px;
+    margin: 100px;
+}
+
+.grid-container{
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+}
+
+.grid-container div{
+    color: white;
+    text-align: center;
+}
+
+.item-1{
+    grid-column: 1/4;
+
+}
