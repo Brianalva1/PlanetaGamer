@@ -20,6 +20,12 @@ body{
     display: inline-block;
     margin: 15px;
     font-size: 20px;
+    transition: .3s;
+}
+
+.menu__item:hover{
+    background-color: darkcyan;
+
 }
 
 .menu__item a{
