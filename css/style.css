@@ -21,6 +21,7 @@ body{
     margin: 15px;
     font-size: 20px;
     transition: .3s;
+    position: relative;
 }
 
 .menu__item:hover{
@@ -31,6 +32,19 @@ body{
 .menu__item a{
     color: white;
     text-decoration: none;
+}
+.menu__item::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+.menu__item:hover::before{
+    width: 100%;
 }
 
 h2{
