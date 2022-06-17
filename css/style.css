@@ -106,3 +106,12 @@ footer ul li{
     grid-column: 1/4;
 
 }
+
+#carouselExampleControls{
+    margin: 0% auto;
+    width: 30%;
+}
+
+h2{
+    padding: 50px;
+}
